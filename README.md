@@ -22,6 +22,7 @@ To explore and adapt this project for your needs, follow these steps:
 2. Configure the IDE to recognize your specific STM32 board model. Detailed instructions can be found in the IDE’s documentation.
 3. Understanding the PID Control Algorithm
 4. Install Python Dependencies:
+5. 
    `pip insatll -r requirements.txt`
    
    `wget -q -O detector.tflite -q https://storage.googleapis.com/mediapipe-models/face_detector/blaze_face_short_range/float16/1/blaze_face_short_range.tflite`
@@ -29,6 +30,7 @@ To explore and adapt this project for your needs, follow these steps:
 7. Upload the adjusted code to your STM32 board.
 8. Ensure the robotic Face Tracker hardware is correctly connected and powered.
 9. Execute the face tracking script by navigating to the script's directory and running:
+10. 
    `python3 face_tracker.py`
 
    Make sure to replace /path/to/your/face_tracker/file/ with the actual path to the face_tracker.py script.
