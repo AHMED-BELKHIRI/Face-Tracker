@@ -30,7 +30,7 @@ To explore and adapt this project for your needs, follow these steps:
 7. Upload the adjusted code to your STM32 board.
 8. Ensure the robotic Face Tracker hardware is correctly connected and powered.
 9. Execute the face tracking script by navigating to the script's directory and running:
-10. 
+    
    `python3 face_tracker.py`
 
    Make sure to replace /path/to/your/face_tracker/file/ with the actual path to the face_tracker.py script.
