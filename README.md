@@ -13,7 +13,7 @@ The Face Tracking Camera System is a solution designed to dynamically track huma
 
 - **Required Libraries in`requirements.txt`:** Essential to the project's Python-based face detection algorithm, the requirements.txt file lists all necessary libraries that must be installed. This file streamlines the setup process, ensuring all dependencies are met for successful execution.
 
-- **Movement Algorithm in `main.cp`:** The core of the FACE TRACKER's motion control lies within the main.c source file, which implements a PID controller algorithm. This sophisticated algorithm adjusts the servo motors to accurately position based on the received X and Y coordinates over the serial port. The source code for this algorithm can be found in the tracker/Core/Src directory.
+- **Movement Algorithm in `main.c`:** The core of the FACE TRACKER's motion control lies within the main.c source file, which implements a PID controller algorithm. This sophisticated algorithm adjusts the servo motors to accurately position based on the received X and Y coordinates over the serial port. The source code for this algorithm can be found in the tracker/Core/Src directory.
 
 ## Getting Started
 
