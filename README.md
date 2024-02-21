@@ -22,7 +22,7 @@ To explore and adapt this project for your needs, follow these steps:
 2. Configure the IDE to recognize your specific STM32 board model. Detailed instructions can be found in the IDE’s documentation.
 3. Understanding the PID Control Algorithm
 4. Install Python Dependencies:
-5. 
+   
    `pip insatll -r requirements.txt`
    
    `wget -q -O detector.tflite -q https://storage.googleapis.com/mediapipe-models/face_detector/blaze_face_short_range/float16/1/blaze_face_short_range.tflite`
