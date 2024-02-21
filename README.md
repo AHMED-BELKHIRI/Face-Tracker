@@ -46,9 +46,11 @@ The Python segment of our project leverages the powerful capabilities of the Med
 On the C programming front, the project employs the PID (Proportional, Integral, Derivative) control algorithm. This algorithm is crucial for the precise control of the servo motors, enabling them to adjust and maintain the camera's focus on the detected face's midpoint. To enhance efficiency and responsiveness, data transmission between the Raspberry Pi and the STM32 microcontroller is facilitated through UART communication, incorporating UART interrupts to minimize processing delays. Furthermore, the calculation of the PWM (Pulse Width Modulation) signals, essential for controlling the servo motors, is executed within the UART interrupt callback function. This approach not only optimizes the system's reaction time to the dynamic input from the Python code but also ensures that the servo motors can swiftly and accurately reach the desired positions, maintaining the face centered in the camera's field of view.
 
 The servo motor controller function:
+
 ![stm32function](https://github.com/AHMED-BELKHIRI/Face-Tracker/assets/90837035/6206e480-9462-4944-9740-c0d07f78237d)
 
 The uart callback function:
+
 ![stm32](https://github.com/AHMED-BELKHIRI/Face-Tracker/assets/90837035/3c921140-f1f3-49bc-820f-89c8495380fe)
 
 
