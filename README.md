@@ -1,7 +1,5 @@
 # Face Tracker
 ![1](https://github.com/AHMED-BELKHIRI/Face-Tracker/assets/90837035/986083e8-6c60-4ecc-9a22-e97e87359b29)
-![4](https://github.com/AHMED-BELKHIRI/Face-Tracker/assets/90837035/ad32b2cb-ec12-45fa-ae6c-fb1ee1b8019b)
-
 ## Project Overview
 
 The Face Tracking Camera System is a solution designed to dynamically track human faces using a camera module, interfaced with an STM32 microcontroller and controlled via two servo motors. This project aims to keep the detected face centered in the camera's view, regardless of movement, making it ideal for applications in security, user interaction, and automated monitoring systems.
@@ -25,12 +23,14 @@ To explore and adapt this project for your needs, follow these steps:
 3. Understanding the PID Control Algorithm
 4. Install Python Dependencies:
    `pip insatll -r requirements.txt`
+   
    `wget -q -O detector.tflite -q https://storage.googleapis.com/mediapipe-models/face_detector/blaze_face_short_range/float16/1/blaze_face_short_range.tflite`
-5. Edit the face_tracker.py script to set the correct camera address and STM32 serial port according to your setup.
-6. Upload the adjusted code to your STM32 board.
-7. Ensure the robotic Face Tracker hardware is correctly connected and powered.
-8. Execute the face tracking script by navigating to the script's directory and running:
+6. Edit the face_tracker.py script to set the correct camera address and STM32 serial port according to your setup.
+7. Upload the adjusted code to your STM32 board.
+8. Ensure the robotic Face Tracker hardware is correctly connected and powered.
+9. Execute the face tracking script by navigating to the script's directory and running:
    `python3 face_tracker.py`
+
    Make sure to replace /path/to/your/face_tracker/file/ with the actual path to the face_tracker.py script.
 
 ## Mechanical Overview
